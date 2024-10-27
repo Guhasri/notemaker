@@ -1,0 +1,121 @@
+.notes-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.notes-header {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.logout-button {
+  float: right;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.note-title-input,
+.note-content-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.note-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.note-button:hover {
+  background-color: #0056b3;
+}
+
+.notes-list {
+  margin: 20px 0;
+}
+
+.note-item {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.note-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.note-content {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.history-container {
+  background-color: #f0f8ff;
+  padding: 10px;
+  border: 1px solid #0099cc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.sync-button, .download-button, .migrate-button {
+  margin-top: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sync-button:hover, .download-button:hover, .migrate-button:hover {
+  background-color: #218838;
+}
+
+.offline-note {
+  background-color: #fff3cd;
+}
+
+.update-button {
+  background-color: #ffc107;
+}
+
+.update-button:hover {
+  background-color: #e0a800;
+}
+
+.close-history-button {
+  background-color: #6c757d;
+  color: white;
+}
+
+.close-history-button:hover {
+  background-color: #5a6268;
+}
